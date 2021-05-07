@@ -1,6 +1,7 @@
 # FullAdder
 C++ Implementation of a full adder that works with any amount of bits
-
+<br />
+<br />
 
 ## FullAdderImpl.cpp
 
@@ -41,6 +42,9 @@ This method, also, has three parameters.
 *The reason it is max_bits + 1 and not just max_bits is so that it will not overflow if **all** bits are used. For example, with max_bits as 4 and both inp1 & inp2 are 1111, the result will be 11110*, the first value is the carry output.*
 
 <br />
-##LogicGates.hpp
+<br />
+## LogicGates.hpp
+
+
 
 
