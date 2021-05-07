@@ -3,7 +3,9 @@ C++ Implementation of a full adder that works with any amount of bits
 
 
 
-#fulladder_struct
+
+
+# fulladder_struct
 bool sum;
 bool cout;
 
