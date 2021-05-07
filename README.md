@@ -2,10 +2,10 @@
 C++ Implementation of a full adder that works with any amount of bits
 
 
+## FullAdderImpl.cpp
 
 
-
-## fulladder_struct [LINE 5]
+### fulladder_struct [LINE 5]
 bool sum;
 bool cout;
 
