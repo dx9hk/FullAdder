@@ -52,7 +52,7 @@ std::string anybit_fulladder(std::string inp1, std::string inp2, int max_bits)
 
 			return new_ret;
 		}();
-		inp1 = res;
+		inp2 = res;
 	}
 
 	if (inp1.length() > inp2.length() || inp1.length() < inp2.length())
