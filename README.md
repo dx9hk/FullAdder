@@ -14,7 +14,7 @@ This struct has two fields.
 * cout refers to the carry output after the operation of the 1 bit fulladder has finished.
 
 
-# fulladder_struct fulladder(...)
+# fulladder_struct fulladder(...) [LINE 15]
 bool inp_a, bool inp_b, bool inp_c
 
 This method has three parameters.
@@ -27,7 +27,7 @@ This method has three parameters.
 *The return type for this method is fulladder_struct so we can organise the outputs easily*
 
 
-# std::string anybit_fulladder(...)
+# std::string anybit_fulladder(...) [LINE 29]
 std::string inp1, std::string inp2, int max_bits
 
 This method, also, has three parameters.
