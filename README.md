@@ -46,6 +46,20 @@ This method, also, has three parameters.
 
 ## LogicGates.hpp
 
+### struct LogicGates [LINE 6]
+bool a, b;
 
+This struct has two fields.
+* a refers to the input 'a'.
+* b refers to the input 'b'.
+
+This struct also has 6 methods & a constructor.
+* bool OR()   returns the output of A + B
+* bool AND()  returns the output of A . B
+* bool NOT()  returns the output of ~A
+* bool XOR()  returns the output of A (X) B
+* bool NOR()  returns the output of ~(A + B)
+* bool NAND() returns the output of ~(A . B)
+	
 
 
