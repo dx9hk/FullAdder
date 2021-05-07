@@ -33,7 +33,7 @@ std::string anybit_fulladder(std::string inp1, std::string inp2, int max_bits)
 	if (inp1.length() != max_bits && inp2.length() != max_bits)
 	{
 		//pad at least one of them
-		int difference = max_bits - inp1.length();
+		int difference = max_bits - inp2.length();
 
 
 		std::string res = [difference, inp2]() {
