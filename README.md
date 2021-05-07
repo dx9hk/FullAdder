@@ -4,8 +4,8 @@ C++ Implementation of a full adder that works with any amount of bits
 
 
 #fulladder_struct
-#	bool sum;
-# bool cout;
+bool sum;
+bool cout;
 
 This struct has two fields.
 * Sum refers to the sum from the addition within a 1 bit fulladder. 
